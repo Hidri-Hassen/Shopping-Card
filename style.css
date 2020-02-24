@@ -1,0 +1,182 @@
+body{
+    background-color: rgba(150,150,150,1);
+    padding: 0;
+    margin: 0;
+}
+li{
+    
+    list-style: none;
+  
+}
+
+.logo{
+    width: 30px;
+    height: 26px;
+}
+.title{
+    width: 580px;
+    margin: 15px 0 0 30px;
+    font-size: 3rem;
+}
+.header{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.dropdown{
+    position: relative;
+   
+    padding-left: 150px;
+}
+
+
+.dropdown-content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 25px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    background:unset;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.home{
+    display: flex;
+    width: 252px;
+    justify-content: space-around;
+    margin-left: -80px;
+    padding: 7px 0;
+}
+.account{
+    display: flex;
+    margin-left: 567px;
+    width: 100px;
+   
+}
+    
+
+.nav{
+  display: flex;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+.social-media{
+    display: flex;
+    padding-left: 280px;
+    justify-content: space-evenly;
+    width: 150px;
+    margin-right: 50px;
+    margin-top: 7px;
+   
+}
+.search{
+   display: flex;
+    height: 120px;
+    background-color: black;
+
+}
+#search{
+    justify-content: center;
+    width: 525px;
+    height: 40px;
+    margin: 37px 0px 37px 298px;
+    border-radius: 10px;
+}
+#btn{
+    border-radius: 10px;
+    margin-bottom: 37px;
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 37px 
+    
+}
+.padding-bag{
+    padding: 50px 20px;
+}
+.bag-bar{
+    height: 50px;
+    background-color: black;
+}
+
+.card{
+    width: 300px;
+    height: 100px;
+}
+.center{
+    width: 150px;
+      margin: 40px auto;
+      
+    }
+.minus{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font: 800 20px Arial;
+
+}
+.qte{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font: 800 20px Arial;
+}
+.plus {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font: 800 20px Arial;
+}
+.remove{   
+     
+    width: 70px;
+    height: 75px;
+}
+.bag{color: white;
+    background-color: black;
+    border: unset;
+}
+#card-price{color: white;
+    background-color: black;
+    border: unset;
+
+}
+.favorit-show{
+    display: block;
+
+}
+.favorit-hide{
+    display: none;
+
+}
+.fav{
+    display: flex;
+    justify-content: space-around;
+  
+}
